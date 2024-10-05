@@ -6,7 +6,7 @@ public class Library {
 	public void addBook(String bookName)
 	{
 		books.add(bookName);
-		System.out.println(bookName + "added to library");
+		System.out.println(bookName + "add to library");
 	}
 	public void listBooks()
 	{
