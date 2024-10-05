@@ -12,5 +12,9 @@ public class Library {
 	{
 		System.out.println("Books in library : " + books.toString());
 	}
+	public void removeBook(String bookName)
+	{
+		books.remove(bookName);
+	}
 	
 }
